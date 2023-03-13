@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+body
+{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,72,77,1) 50%);
+}
+.block{
+    margin: 0px auto;
+    max-width:1200px;
+    height: 3500px;
+    margin: 0 155px;
+    background-color: #19201F;
+    border: 2px solid;
+}
+@media only screen and (max-width : 1286px) {
+  .block{
+    max-width: 1180px;
+    font-size: 10px;
+  }
+  .text{
+    font-size: 13px;
+  }
+  .block h1{
+    font-size: 25px;
+  }
+  .side_box1 .seasons{
+    font-size: 15px;
+  }
+  .text_s{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width : 870px) {
+  .block{
+    max-width:720px;
+  }
+  .block h1{
+    font-size: 20px;
+  }
+  .side_box1 .seasons{
+    font-size: 13px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 700px) {
+  .block{
+    max-width: 520px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+   .block{
+    max-width:320px;
+   }
+}
+     /* HEADER */
+header{
+    background: url(img/backheader.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 720px;
+    background-size: cover;
+
+}
+header  h1{
+   position: absolute;
+   background: #ffffff00;
+   margin: 20px 35px;
+   text-transform: uppercase;
+   color: #25365F;
+   text-decoration: none;
+   font-size: 40px;
+}
+header h3 {
+    background: #ffffff00;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0px 35px;
+    padding-top: 70px;
+    font-size: 15px;
+    font-weight: 300;
+}
+header a{
+    text-decoration: none;
+}
+.title {
+    position: relative;
+    font-weight: 530;
+    font-size: 40px;
+    background: #ffffff00;
+    color: white;
+    margin: 35px 35px 10px;
+}
+header .text{ 
+    display: flex;
+    background: #ffffff00;
+    color: white;
+    margin: 0 35px;
+}
+   /* MAIN */
+main{ 
+    height: 2500px;
+    background-color: #19201F;
+    display: flex;
+    justify-content:space-between;
+}
+/* BOX1 */
+.side_box1{
+    position: relative;
+    max-width: 300px;
+    height: 100%;
+    background: #19201F;
+    margin-left: 15px;
+}
+.side_box1 h1{
+    background: #19201F;
+    color:#4C6966;
+    margin-left: 10px;
+    font-size: 27px;
+}
+.side_box1 a{
+  text-decoration: none;
+  list-style-type: circle;
+}
+.seasons{
+    background: #19201F;
+}
+ li{
+    color: #4C6966;
+    font-size: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+li:hover{
+    text-decoration: underline;
+}
+/* BOX2 */
+.side_box2{
+    max-width: 600px;
+    height: 100%;
+    background: #19201F;
+    border-right: 1px solid #6F6D6D;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.side_box2 h1{
+    background: #ffffff00;
+    color: #4C6966;
+    font-size: 27px;
+}
+.side_box2 p{
+    color:#4C6966;
+    background: #ffffff00;
+}
+/*Content*/
+.season_item_img{
+    max-width: 190px;
+    height: 280px;
+    margin-top: 30px;
+    display: table-cell;
+    padding-right: 15px;
+}
+.season_item_img img{
+    width: 100%;
+    height: 100%;
+}
+.season_item_img a{
+    background: #ffffff00;
+}
+.season_item{
+  color: #4C6966;
+  font-size: 20px;
+  display: table-cell;
+}
+.season_item_title a{
+  text-decoration: none;
+}
+.season_item_title{
+  display: table;
+}
+/* BOX3 */
+.side_box3{
+    max-width: 300px;
+    height: 100%;
+    background: #19201F;
+    margin-right: 30px;
+}
+/* Авторизация */
+.autor_block{
+  margin-right: 30px;
+  
+}
+.autor_block a img{
+    max-width: 64px;
+    height: 64px;
+    padding-right: 35px;
+}
+  .text_autor{
+  color: #4C6966;
+  font-size: 27px;
+}
